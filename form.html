@@ -1,0 +1,51 @@
+<p>And now welcome our delighted member just follow the guidelines below.</p>
+<p>Hello our beloved member before joining our community I would like you to read our rules and regulations.
+    <!--set rules and regulations in a pdf format but also include the constitution of our community-->
+</p>
+<link rel="stylesheet" href="form.css">
+<form action="process.php" method="post">
+    <form id="myForm">
+    <fieldset>
+        <legend>Pesonal Information</legend>
+    First name:<br>
+    <input type="text"  name="Your firstname" required><br>
+    Second name:<br>
+    <input type="text" name="Your last name"><br>
+    Last name:<br>
+    <input type="text" name="Your second name" required><br>
+    Phone number:<br>
+    <input type="tel" name="phone" id="phone" placeholder="+255715286945" ><br>
+    Gender:<br>
+    <input type="text" name="gender" required><br>
+    Birth date:<br>
+    <input type="text" name="birth date" required><br>
+ </fieldset>
+<fieldset>
+    <legend>MAKAZI YA KUDUMU</legend>
+    MKOA:<br>
+    <input type="text" name="mkoa"><br>
+    WILAYA:<br>
+    <input type="text" name="wilaya"><br>
+    KATA:<br>
+    <input type="text" name="kata"><br>
+</fieldset>
+<fieldset>
+    <legend>VIONGOZI WAKO</legend>
+    JE,MWENYEKITI WA MTAA WAKO ANAITWA NANI?
+    <input type="text" name="m/kiti"><br>
+</fieldset>
+<fieldset>
+    <legend>MENGINEYO</legend>
+    JE,LINI ULISIKIA CYMP NA WAPI?<br>
+    <textarea id="message" name="message"></textarea><br><br>
+</fieldset><br><br>
+
+    <button type="submit">Submit</button>
+    </form>
+
+    <div id="popup" class="popup">
+        <p>Information has been successfully submitted!</p>
+        <button id="closePopup">Close</button>
+    </div>
+
+    <script src="script.js"></script>

@@ -1,0 +1,102 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 20px;
+    background-image:linear-gradient( #fff, #304352,#d7d2cc); 
+   
+
+}
+
+form{ 
+    max-width: 500px;
+    margin: auto;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    background-color: papayawhip;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+legend { 
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding:5px 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom:16px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*button{
+    padding:10px 20px;
+    color:white;
+    background-color: #28a745;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    box-shadow:0 0 5px #28a745;
+    transition:box-shadow 0.3s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 0 15px #28a745;
+}*/
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #666699;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Adjust hover shadow */
+  }
+
+  /* Centering the button */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Adjust as per your layout */
+  }
+
+ .popup{
+    display: none;
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    padding:20px;
+    background-color: #f9f9f9;
+    border:1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index:1000;
+ }
+
+ .popup{
+    margin: 0 0 20px;
+ }
+
+ .popup button{
+    padding: 5px 10px;
+ }

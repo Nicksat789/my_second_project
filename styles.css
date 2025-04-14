@@ -1,0 +1,170 @@
+body {background-image:url(../img/water.jpg), linear-gradient(to left,#5d4157,#a8caba);
+      /*margin: 2rem;*/
+      
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+ /* CSS for the button */
+ .get-started-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #666699;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .get-started-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Adjust hover shadow */
+  }
+
+  /* Centering the button */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Adjust as per your layout */
+  }
+
+  .top-bar {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.2px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.bottom-bar {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0.2px;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0.5px;
+    position: fixed;
+    width: 100%;
+    top: 50px; /* Adjust based on top-bar height */
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    background-color: #4A4A4A;
+    position: fixed;
+    top: 80px; /* Adjust based on top-bar and header height */
+    right: 0;
+    width: 200px;
+    z-index: 998;
+}
+
+.close-icon {
+    font-size: 24px;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #575757;
+}
+
+.content {
+    margin-top: 120px; /* Adjust based on top-bar and header height */
+    padding: 20px;
+}
+
+article{
+        background-color: papayawhip;
+}
+
+.us{
+    color:black;
+    border:3px solid burlywood ;
+    /* margin: 1.5rem; */
+    margin:0 auto 1rem;
+    border-radius: 30px;
+    /*text-align: center;*/
+    max-width: 600px;
+    padding: 1rem;
+}
+
+.ul{
+    /*text-align: center;*/
+    /*padding-right: 70px;*/
+    list-style-position:inside;
+    /*border:3px solid indianred;*/
+}
+
+.joinus{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
+   
+
+}
+
+.programs{
+    margin:2rem;
+    text-align: center;
+    border: 5px solid gold;
+    background-color: papayawhip;
+    padding:0.5rem;
+    border-radius: 50px;
+}
